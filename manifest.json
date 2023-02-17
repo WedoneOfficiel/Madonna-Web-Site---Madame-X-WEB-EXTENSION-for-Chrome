@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Madonna Web Site - Madame X WEB EXTENSION",
+  "version": "2.0.0.0",
+  "description": "Allows access to Madonna's official website via a button located in front of an image of the Madame X Tour.",
+  "icons": {
+    "16": "Madonna16x16.png",
+    "32": "Madonna32x32.png",
+    "48": "Madonna48x48.png",
+    "128": "Madonna128x128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Press Ctrl(Win)/Command(Mac) +Alt +H to open"
+  },
+ "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+H",
+        "mac": "Ctrl+Shift+H"
+      }
+    }
+  }
+
+}
